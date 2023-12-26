@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 5, 5, 5;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 5, 5, 5;
+    --background-end-rgb: 5, 5, 5;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-end-rgb));
+}
+
+@font-face {
+  src: url("../public/fonts/MADESAONARA.otf") format("opentype");
+  font-family: "Made Saonara";
+}
+@font-face {
+  src: url("../public/fonts/MADESAONARA2.otf") format("opentype");
+  font-family: "Made Saonara Close";
+}
+
+.main-font {
+  font-family: "Made Saonara";
+  font-size: 400px;
+  color: #2b2b2b;
+}
