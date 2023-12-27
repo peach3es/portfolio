@@ -10,7 +10,9 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      blue: "#6093B8",
+      bl: "#6093B8",
+      bla: "#2b2b2b",
+      wh: "#cccccc",
     },
     extend: {
       backgroundImage: {
