@@ -19,7 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-end-rgb));
-  height: 100vh;
+  height: 100%;
 }
 ::selection {
   background: #777777;
@@ -41,22 +41,34 @@ body {
 .main-font {
   font-family: "Freight Big Pro";
 }
-
 .marquee {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
 }
+.button:after {
+  content: "";
+  border-bottom: 1px solid #cccccc;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.button:hover:after {
+  right: 0;
+}
 
-.about span {
+.about span,
+.experience span {
   display: inline-block;
-  animation: marquee1 17s linear infinite;
+  animation: marquee1 27s linear infinite;
 }
 
 .project span {
   display: inline-block;
-  animation: marquee2 17s linear infinite;
+  animation: marquee2 30s linear infinite;
 }
 
 @keyframes marquee1 {
