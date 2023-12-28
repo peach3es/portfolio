@@ -46,26 +46,30 @@ export default function MainPage() {
         </div>
         <div className="mt-72 sm:mt-0">
           {/* ABOUT */}
-          <div className="about marquee text-8xl main-font text-wh ">
+          <div className="about marquee text-8xl main-font text-bl ">
             <span>ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT</span>
             <span>&nbsp;ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT</span>
-            <div className="content h-fit mx-10 text-5xl">about section</div>
+            <div className="content h-fit mx-10 text-5xl text-wh">
+              about section
+            </div>
           </div>
           {/* PROJECTS */}
-          <div className="project marquee text-8xl main-font text-wh">
+          <div className="project marquee text-8xl main-font text-bl">
             <span>
               PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS&nbsp;
             </span>
             <span>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</span>
-            <div className="content h-fit mx-10 text-5xl">project section</div>
+            <div className="content h-fit mx-10 text-5xl text-wh">
+              project section
+            </div>
           </div>
           {/* EXPERIENCE */}
-          <div className="experience marquee text-8xl main-font text-wh">
+          <div className="experience marquee text-8xl main-font text-bl">
             <span>
               EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE&nbsp;
             </span>
             <span>EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE</span>
-            <div className="content h-fit mx-10 text-5xl">
+            <div className="content h-fit mx-10 text-5xl text-wh">
               experience section
             </div>
           </div>
