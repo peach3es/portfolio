@@ -20,6 +20,9 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-end-rgb));
   height: 100%;
+  /* background: url("/img/grain.jpg") no-repeat center fixed;
+  background-size: cover;
+  blend-mode: multiply; */
 }
 ::selection {
   background: #777777;
