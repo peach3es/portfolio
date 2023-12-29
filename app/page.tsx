@@ -32,7 +32,7 @@ export default function MainPage() {
                 </Button>
                 <Button
                   disableRipple
-                  className="button w-fit text-2xl main-font font-extrabold bg-transparent text-wh  transition ease-in-out duration-300 border-b-1"
+                  className="button w-fit text-2xl main-font font-extrabold bg-transparent text-wh transition ease-in-out duration-300 border-b-1"
                   radius="none"
                 >
                   Resume
@@ -49,8 +49,19 @@ export default function MainPage() {
           <div className="about marquee text-8xl main-font text-bl ">
             <span>ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT</span>
             <span>&nbsp;ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT</span>
-            <div className="content h-fit mx-10 text-5xl text-wh">
-              about section
+            <div className="content h-fit mx-10 text-5xl text-wh flex flex-col">
+              <div className="flex flex-row h-56 mx-20 items-center whitespace-normal my-10">
+                <div className="flex flex-col desc w-1/2 gap-2 text-right">
+                  <h2 className="sec-font text-7xl">Hey, I'm Peizhe Tian</h2>
+                  <h2 className="p-2 text-4xl">/pAy-zEE/</h2>
+                  <p className="px-2 sec-font text-3xl">
+                    I&#39;m currently a Computer Engineering student at
+                    Concordia University and I&#39;m focusing on various side
+                    projects to refine my skills.
+                  </p>
+                </div>
+                <div className="image w-1/2"></div>
+              </div>
             </div>
           </div>
           {/* PROJECTS */}

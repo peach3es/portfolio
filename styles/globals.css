@@ -40,9 +40,16 @@ body {
   src: url("../public/fonts/FreightBigProBookR.ttf") format("truetype");
   font-family: "Freight Big Pro";
 }
+@font-face {
+  src: url("../public/fonts/Oswald.ttf") format("truetype");
+  font-family: "Oswald";
+}
 
 .main-font {
   font-family: "Freight Big Pro";
+}
+.sec-font {
+  font-family: "Oswald";
 }
 .marquee {
   width: 100%;
@@ -54,7 +61,7 @@ body {
   content: "";
   border-bottom: 1px solid #cccccc;
   position: absolute;
-  bottom: 2px;
+  bottom: 3px;
   left: 0;
   right: 100%;
   transition: all 0.5s ease-in-out;
