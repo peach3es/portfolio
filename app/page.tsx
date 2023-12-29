@@ -52,11 +52,13 @@ export default function MainPage() {
             <div className="content h-fit mx-10 text-5xl text-wh flex flex-col">
               <div className="flex flex-row h-fit mx-20 items-center whitespace-normal my-10">
                 <div className="flex flex-col desc w-1/2 gap-2 text-right">
-                  <h2 className="sec-font text-7xl">Hey, I'm Peizhe Tian</h2>
+                  <h2 className="sec-font text-7xl">
+                    Hey, I&apos;m Peizhe Tian
+                  </h2>
                   <h2 className="p-2 text-4xl">/pAy-zEE/</h2>
                   <p className="px-2 sec-font text-3xl">
-                    I&#39;m currently a Computer Engineering student at
-                    Concordia University and I&#39;m focusing on various side
+                    I&apos;m currently a Computer Engineering student at
+                    Concordia University and I&apos;m focusing on various side
                     projects to refine my skills.
                   </p>
                 </div>
@@ -99,7 +101,8 @@ export default function MainPage() {
                     This project is a simple application that I made to practice
                     my HTML, CSS, and JS skills. It is a simple website that
                     currently contains small tools like a calculator and a
-                    weather app. I'm planning to add more tools in the future.
+                    weather app. I&apos;m planning to add more tools in the
+                    future.
                   </p>
                   <div className="flex items-center">
                     <h2 className="text-4xl px-2 text-bl">Skills:</h2>
