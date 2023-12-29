@@ -79,8 +79,36 @@ export default function MainPage() {
               PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS&nbsp;
             </span>
             <span>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</span>
-            <div className="content h-fit mx-10 text-5xl text-wh">
+            <div className="content h-fit mx-10 text-5xl text-wh flex flex-col">
               project section
+              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal my-10">
+                <div className="image w-1/2 flex justify-center my-5">
+                  <Image
+                    as={NextImage}
+                    width={500}
+                    height={500}
+                    alt="profile"
+                    src="/img/template.png"
+                    className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
+                  />
+                </div>
+                <div className="flex flex-col desc w-1/2 gap-2 text-left">
+                  <h2 className="sec-font text-7xl">Simple Application</h2>
+                  {/* <h2 className="p-2 text-4xl">/pAy-zEE/</h2> */}
+                  <p className="px-2 sec-font text-3xl">
+                    This project is a simple application that I made to practice
+                    my HTML, CSS, and JS skills. It is a simple website that
+                    currently contains small tools like a calculator and a
+                    weather app. I'm planning to add more tools in the future.
+                  </p>
+                  <div className="flex items-center">
+                    <h2 className="text-4xl px-2 text-bl">Skills:</h2>
+                    <p className="px-2 sec-font text-2xl text-bl ">
+                      HTML, CSS, JavaScript
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* EXPERIENCE */}
