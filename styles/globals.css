@@ -45,6 +45,10 @@ body {
   font-family: "Oswald";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main-font {
   font-family: "Freight Big Pro";
 }
