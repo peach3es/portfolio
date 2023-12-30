@@ -46,7 +46,7 @@ export default function MainPage() {
         </div>
         <div className="mt-72 sm:mt-0">
           {/* ABOUT */}
-          <div className="about marquee text-8xl main-font text-bl ">
+          <div className="about marquee text-8xl main-font text-bl" id="about">
             <span>ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT</span>
             <span>&nbsp;ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT</span>
             <div className="content h-fit mx-10 text-5xl text-wh flex flex-col">
@@ -86,7 +86,10 @@ export default function MainPage() {
             </div>
           </div>
           {/* PROJECTS */}
-          <div className="project marquee text-8xl main-font text-bl">
+          <div
+            className="project marquee text-8xl main-font text-bl"
+            id="projects"
+          >
             <span>
               PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS&nbsp;
             </span>
@@ -125,7 +128,10 @@ export default function MainPage() {
             </div>
           </div>
           {/* EXPERIENCE */}
-          <div className="experience marquee text-8xl main-font text-bl">
+          <div
+            className="experience marquee text-8xl main-font text-bl"
+            id="experience"
+          >
             <span>
               EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE&nbsp;
             </span>

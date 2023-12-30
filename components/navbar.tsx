@@ -18,7 +18,7 @@ export default function NavBar() {
       <NavbarContent className="hidden sm:flex gap-20" justify="center">
         <NavbarItem>
           <Link
-            href="#"
+            href="#about"
             className="text-wh hover:text-bl duration-400 transition-all"
           >
             ABOUT
@@ -27,7 +27,7 @@ export default function NavBar() {
         <NavbarItem>
           <Link
             color="foreground"
-            href="#"
+            href="#projects"
             className="text-wh hover:text-bl duration-400 transition-all"
           >
             PROJECTS
@@ -36,7 +36,7 @@ export default function NavBar() {
         <NavbarItem>
           <Link
             color="foreground"
-            href="#"
+            href="#experience"
             className="text-wh hover:text-bl duration-400 transition-all"
           >
             EXPERIENCE
