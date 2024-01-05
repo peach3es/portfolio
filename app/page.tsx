@@ -55,7 +55,7 @@ export default function MainPage() {
                   <h2 className="sec-font text-7xl">
                     Hey, I&apos;m Peizhe Tian
                   </h2>
-                  <h2 className="p-2 text-4xl">/pAy-zEE/</h2>
+                  <h2 className="p-2 text-4xl italic text-bl">/pAy-zEE/</h2>
                   <p className="px-2 sec-font text-3xl">
                     I&apos;m currently a Computer Engineering student at
                     Concordia University and I&apos;m focusing on various side
@@ -95,34 +95,42 @@ export default function MainPage() {
             </span>
             <span>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</span>
             <div className="content h-fit mx-10 text-5xl text-wh flex flex-col">
-              project section
               <div className="flex flex-row h-fit mx-20 items-center whitespace-normal my-10">
                 <div className="image w-1/2 flex justify-center my-5">
                   <Image
                     as={NextImage}
-                    width={500}
-                    height={500}
+                    width={770}
+                    height={770}
                     alt="profile"
-                    src="/img/template.png"
+                    src="/img/5ftapart.png"
                     className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
                   />
                 </div>
                 <div className="flex flex-col desc w-1/2 gap-2 text-left">
-                  <h2 className="sec-font text-7xl">Simple Application</h2>
-                  {/* <h2 className="p-2 text-4xl">/pAy-zEE/</h2> */}
-                  <p className="px-2 sec-font text-3xl">
-                    This project is a simple application that I made to practice
-                    my HTML, CSS, and JS skills. It is a simple website that
-                    currently contains small tools like a calculator and a
-                    weather app. I&apos;m planning to add more tools in the
-                    future.
-                  </p>
-                  <div className="flex items-center">
-                    <h2 className="text-4xl px-2 text-bl">Skills:</h2>
-                    <p className="px-2 sec-font text-2xl text-bl ">
-                      HTML, CSS, JavaScript
+                  <h2 className="sec-font text-7xl">5FtApart</h2>
+                  <h2 className="text-4xl">/Fall - December 2023/</h2>
+                  <div className="summary">
+                    <p className="px-2 sec-font text-2xl">
+                      Developed a real estate website clone using React,
+                      Next.js, Cypress, MongoDB & Vercel.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Designed the UI/UX of the website using Tailwind &
+                      existing UI libraries.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Led the development process following SCRUM methodology.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Engaged in pair programming to ensure a collaborative and
+                      efficient workflow.
                     </p>
                   </div>
+
+                  <h2 className="px-2 mt-2 text-3xl text-bl font-bold">
+                    Skills: REACT, NEXT.JS 13, TAILWIND, MONGODB, CYPRESS,
+                    TYPESCRIPT
+                  </h2>
                 </div>
               </div>
             </div>
