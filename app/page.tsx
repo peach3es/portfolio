@@ -108,7 +108,7 @@ export default function MainPage() {
                 </div>
                 <div className="flex flex-col desc w-1/2 gap-2 text-left">
                   <h2 className="sec-font text-7xl">5FtApart</h2>
-                  <h2 className="text-4xl">/Fall - December 2023/</h2>
+                  <h2 className="text-4xl text-dbl">/Fall - December 2023/</h2>
                   <div className="summary">
                     <p className="px-2 sec-font text-2xl">
                       Developed a real estate website clone using React,
@@ -126,11 +126,47 @@ export default function MainPage() {
                       efficient workflow.
                     </p>
                   </div>
-
-                  <h2 className="px-2 mt-2 text-3xl text-bl font-bold">
+                  <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
                     Skills: REACT, NEXT.JS 13, TAILWIND, MONGODB, CYPRESS,
                     TYPESCRIPT
                   </h2>
+                </div>
+              </div>
+              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal my-10">
+                <div className="flex flex-col desc w-1/2 gap-2 text-right">
+                  <h2 className="sec-font text-7xl">5FtApart</h2>
+                  <h2 className="text-4xl text-dbl">/Fall - December 2023/</h2>
+                  <div className="summary">
+                    <p className="px-2 sec-font text-2xl">
+                      Developed a real estate website clone using React,
+                      Next.js, Cypress, MongoDB & Vercel.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Designed the UI/UX of the website using Tailwind &
+                      existing UI libraries.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Led the development process following SCRUM methodology.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Engaged in pair programming to ensure a collaborative and
+                      efficient workflow.
+                    </p>
+                  </div>
+                  <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
+                    Skills: REACT, NEXT.JS 13, TAILWIND, MONGODB, CYPRESS,
+                    TYPESCRIPT
+                  </h2>
+                </div>
+                <div className="image w-1/2 flex justify-center my-5">
+                  <Image
+                    as={NextImage}
+                    width={770}
+                    height={770}
+                    alt="profile"
+                    src="/img/5ftapart.png"
+                    className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
+                  />
                 </div>
               </div>
             </div>

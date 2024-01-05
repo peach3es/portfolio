@@ -13,6 +13,7 @@ const config: Config = {
       bl: "#6093B8",
       bla: "#2b2b2b",
       wh: "#cccccc",
+      dbl: "#829bb3",
     },
     extend: {
       backgroundImage: {
