@@ -144,17 +144,17 @@ export default function MainPage() {
                   <h2 className="text-4xl text-dbl">/Fall - Ongoing/</h2>
                   <div className="summary">
                     <p className="px-2 sec-font text-2xl">
-                      Re-developed the CGD club's website using React, Remix,
-                      Tailwind & Vercel individually.
+                      Re-developed the CGD club&apos;s website using React,
+                      Remix, Tailwind & Vercel individually.
                     </p>
                     <p className="px-2 sec-font text-2xl">
                       Re-designed the UI/UX of the website using Tailwind whilst
-                      keeping the original website's aesthetic.
+                      keeping the original website&apos;s aesthetic.
                     </p>
                     <p className="px-2 sec-font text-2xl"></p>
                     <p className="px-2 sec-font text-2xl">
                       Collaborated in pair programming to solicit reviews,
-                      ensuring the website's intended direction.
+                      ensuring the website&apos;s intended direction.
                     </p>
                   </div>
                   <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
