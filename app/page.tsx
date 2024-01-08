@@ -1,4 +1,4 @@
-import { Button, Image } from "@nextui-org/react";
+import { Button, Image, Divider } from "@nextui-org/react";
 import NextImage from "next/image";
 
 export default function MainPage() {
@@ -94,8 +94,8 @@ export default function MainPage() {
               PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS&nbsp;
             </span>
             <span>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</span>
-            <div className="content h-fit mx-10 text-5xl text-wh flex flex-col">
-              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal my-10">
+            <div className="content h-fit mx-10 text-5xl text-wh flex flex-col mt-10">
+              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal">
                 <div className="image w-1/2 flex justify-center my-5">
                   <Image
                     as={NextImage}
@@ -115,8 +115,8 @@ export default function MainPage() {
                       Next.js, Cypress, MongoDB & Vercel.
                     </p>
                     <p className="px-2 sec-font text-2xl">
-                      Designed the UI/UX of the website using Tailwind &
-                      existing UI libraries.
+                      Designed the UI/UX of the website using Tailwind & the
+                      NextUI library.
                     </p>
                     <p className="px-2 sec-font text-2xl">
                       Led the development process following SCRUM methodology.
@@ -132,8 +132,62 @@ export default function MainPage() {
                   </h2>
                 </div>
               </div>
-              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal my-10">
+              <Divider
+                orientation="horizontal"
+                className="bg-dbl w-2/3 place-self-center my-10"
+              />
+              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal">
                 <div className="flex flex-col desc w-1/2 gap-2 text-right">
+                  <h2 className="sec-font text-7xl">
+                    Concordia Game Development Club
+                  </h2>
+                  <h2 className="text-4xl text-dbl">/Fall - Ongoing/</h2>
+                  <div className="summary">
+                    <p className="px-2 sec-font text-2xl">
+                      Re-developed the CGD club's website using React, Remix,
+                      Tailwind & Vercel individually.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Re-designed the UI/UX of the website using Tailwind whilst
+                      keeping the original website's aesthetic.
+                    </p>
+                    <p className="px-2 sec-font text-2xl"></p>
+                    <p className="px-2 sec-font text-2xl">
+                      Collaborated in pair programming to solicit reviews,
+                      ensuring the website's intended direction.
+                    </p>
+                  </div>
+                  <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
+                    Skills: REACT, REMIX, TAILWIND, TYPESCRIPT
+                  </h2>
+                </div>
+                <div className="image w-1/2 flex justify-center my-5">
+                  <Image
+                    as={NextImage}
+                    width={350}
+                    height={350}
+                    alt="profile"
+                    src="/img/cgd.png"
+                    className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
+                  />
+                </div>
+              </div>
+              <Divider
+                orientation="horizontal"
+                className="bg-dbl w-2/3 place-self-center my-10"
+              />
+              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal">
+                <div className="image w-1/2 flex justify-center my-5">
+                  <Image
+                    as={NextImage}
+                    width={770}
+                    height={770}
+                    alt="profile"
+                    src="/img/5ftapart.png"
+                    className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
+                  />
+                </div>
+                <div className="flex flex-col desc w-1/2 gap-2 text-left">
                   <h2 className="sec-font text-7xl">5FtApart</h2>
                   <h2 className="text-4xl text-dbl">/Fall - December 2023/</h2>
                   <div className="summary">
@@ -142,8 +196,8 @@ export default function MainPage() {
                       Next.js, Cypress, MongoDB & Vercel.
                     </p>
                     <p className="px-2 sec-font text-2xl">
-                      Designed the UI/UX of the website using Tailwind &
-                      existing UI libraries.
+                      Designed the UI/UX of the website using Tailwind & the
+                      NextUI library.
                     </p>
                     <p className="px-2 sec-font text-2xl">
                       Led the development process following SCRUM methodology.
@@ -157,16 +211,6 @@ export default function MainPage() {
                     Skills: REACT, NEXT.JS 13, TAILWIND, MONGODB, CYPRESS,
                     TYPESCRIPT
                   </h2>
-                </div>
-                <div className="image w-1/2 flex justify-center my-5">
-                  <Image
-                    as={NextImage}
-                    width={770}
-                    height={770}
-                    alt="profile"
-                    src="/img/5ftapart.png"
-                    className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
-                  />
                 </div>
               </div>
             </div>
