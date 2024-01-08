@@ -95,7 +95,7 @@ export default function MainPage() {
             </span>
             <span>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</span>
             <div className="content h-fit mx-10 text-5xl text-wh flex flex-col mt-10">
-              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal">
+              <div className="flex flex-row h-fit mx-36 items-center whitespace-normal">
                 <div className="image w-1/2 flex justify-center my-5">
                   <Image
                     as={NextImage}
@@ -136,7 +136,7 @@ export default function MainPage() {
                 orientation="horizontal"
                 className="bg-dbl w-2/3 place-self-center my-10"
               />
-              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal">
+              <div className="flex flex-row h-fit mx-36 items-center whitespace-normal">
                 <div className="flex flex-col desc w-1/2 gap-2 text-right">
                   <h2 className="sec-font text-7xl">
                     Concordia Game Development Club
@@ -168,7 +168,7 @@ export default function MainPage() {
                     height={350}
                     alt="profile"
                     src="/img/cgd.png"
-                    className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
+                    className="z-0 opacity-100 w-full mix-blend-lighten rounded-none object-cover"
                   />
                 </div>
               </div>
@@ -176,40 +176,37 @@ export default function MainPage() {
                 orientation="horizontal"
                 className="bg-dbl w-2/3 place-self-center my-10"
               />
-              <div className="flex flex-row h-fit mx-20 items-center whitespace-normal">
+              <div className="flex flex-row h-fit mx-36 items-center whitespace-normal">
                 <div className="image w-1/2 flex justify-center my-5">
                   <Image
                     as={NextImage}
-                    width={770}
-                    height={770}
+                    width={700}
+                    height={700}
                     alt="profile"
-                    src="/img/5ftapart.png"
-                    className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
+                    quality={80}
+                    src="/img/simpleapps.png"
+                    className="z-0 opacity-100 w-full mix-blend-difference rounded-lg object-cover"
                   />
                 </div>
                 <div className="flex flex-col desc w-1/2 gap-2 text-left">
-                  <h2 className="sec-font text-7xl">5FtApart</h2>
-                  <h2 className="text-4xl text-dbl">/Fall - December 2023/</h2>
+                  <h2 className="sec-font text-7xl">Simple Application</h2>
+                  <h2 className="text-4xl text-dbl">/March 2022 - Ongoing/</h2>
                   <div className="summary">
                     <p className="px-2 sec-font text-2xl">
-                      Developed a real estate website clone using React,
-                      Next.js, Cypress, MongoDB & Vercel.
+                      Developed a simple application website using HTML, CSS &
+                      Javascript individually.
                     </p>
                     <p className="px-2 sec-font text-2xl">
-                      Designed the UI/UX of the website using Tailwind & the
-                      NextUI library.
+                      Designed a collection of small tools like a calculator & a
+                      weather app.
                     </p>
                     <p className="px-2 sec-font text-2xl">
-                      Led the development process following SCRUM methodology.
-                    </p>
-                    <p className="px-2 sec-font text-2xl">
-                      Engaged in pair programming to ensure a collaborative and
-                      efficient workflow.
+                      Planning on adding more tools in the future like a to-do
+                      list.
                     </p>
                   </div>
                   <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
-                    Skills: REACT, NEXT.JS 13, TAILWIND, MONGODB, CYPRESS,
-                    TYPESCRIPT
+                    Skills: HTML, CSS, JAVASCRIPT
                   </h2>
                 </div>
               </div>
