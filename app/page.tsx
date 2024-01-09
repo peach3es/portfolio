@@ -94,9 +94,9 @@ export default function MainPage() {
               PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS&nbsp;
             </span>
             <span>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</span>
-            <div className="content h-fit mx-10 text-5xl text-wh flex flex-col mt-10">
-              <div className="flex flex-row h-fit mx-36 items-center whitespace-normal">
-                <div className="image w-1/2 flex justify-center my-5">
+            <div className="content h-fit mx-10 text-5xl text-wh flex flex-col my-10">
+              <div className="flex flex-row h-fit items-center whitespace-normal w-full justify-center">
+                <div className="image w-1/2 flex my-5 justify-center">
                   <Image
                     as={NextImage}
                     width={770}
@@ -134,14 +134,14 @@ export default function MainPage() {
               </div>
               <Divider
                 orientation="horizontal"
-                className="bg-dbl w-2/3 place-self-center my-10"
+                className="bg-dbl w-3/4 place-self-center my-10"
               />
-              <div className="flex flex-row h-fit mx-36 items-center whitespace-normal">
+              <div className="flex flex-row h-fit w-full items-center whitespace-normal justify-center">
                 <div className="flex flex-col desc w-1/2 gap-2 text-right">
                   <h2 className="sec-font text-7xl">
                     Concordia Game Development Club
                   </h2>
-                  <h2 className="text-4xl text-dbl">/Fall - Ongoing/</h2>
+                  <h2 className="text-4xl text-dbl">/Fall 2023 - Ongoing/</h2>
                   <div className="summary">
                     <p className="px-2 sec-font text-2xl">
                       Re-developed the CGD club&apos;s website using React,
@@ -161,7 +161,7 @@ export default function MainPage() {
                     Skills: REACT, REMIX, TAILWIND, TYPESCRIPT
                   </h2>
                 </div>
-                <div className="image w-1/2 flex justify-center my-5">
+                <div className="image w-1/2 flex my-5 justify-center">
                   <Image
                     as={NextImage}
                     width={350}
@@ -174,9 +174,9 @@ export default function MainPage() {
               </div>
               <Divider
                 orientation="horizontal"
-                className="bg-dbl w-2/3 place-self-center my-10"
+                className="bg-dbl w-3/4 place-self-center my-10"
               />
-              <div className="flex flex-row h-fit mx-36 items-center whitespace-normal">
+              <div className="flex flex-row h-fit items-center whitespace-normal justify-center">
                 <div className="image w-1/2 flex justify-center my-5">
                   <Image
                     as={NextImage}
@@ -185,12 +185,12 @@ export default function MainPage() {
                     alt="profile"
                     quality={80}
                     src="/img/simpleapps.png"
-                    className="z-0 opacity-100 w-full mix-blend-difference rounded-lg object-cover"
+                    className="z-0 opacity-100 w-full mix-blend-difference rounded-sm object-cover"
                   />
                 </div>
                 <div className="flex flex-col desc w-1/2 gap-2 text-left">
                   <h2 className="sec-font text-7xl">Simple Application</h2>
-                  <h2 className="text-4xl text-dbl">/March 2022 - Ongoing/</h2>
+                  <h2 className="text-4xl text-dbl">/March 2023 - Ongoing/</h2>
                   <div className="summary">
                     <p className="px-2 sec-font text-2xl">
                       Developed a simple application website using HTML, CSS &
@@ -221,8 +221,49 @@ export default function MainPage() {
               EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE&nbsp;
             </span>
             <span>EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE</span>
-            <div className="content h-fit mx-10 text-5xl text-wh">
-              experience section
+            <div className="content h-fit mx-10 text-5xl text-wh flex flex-col my-10">
+              <div className="flex flex-row h-fit mx-36 items-center whitespace-normal">
+                <div className="image w-1/2 flex justify-center my-5">
+                  <Image
+                    as={NextImage}
+                    width={700}
+                    height={700}
+                    alt="profile"
+                    quality={80}
+                    src="/img/matrox.svg"
+                    className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
+                  />
+                </div>
+                <div className="flex flex-col desc w-1/2 gap-2 text-left">
+                  <h2 className="sec-font text-7xl">
+                    Application Engineer Intern
+                  </h2>
+                  <h2 className="text-4xl text-dbl">
+                    /January 2023 - April 2023/
+                  </h2>
+                  <div className="summary">
+                    <p className="px-2 sec-font text-2xl">
+                      Assessed customer cases to reproduce client-side bugs and
+                      resolve them by using problem solving.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Conceptualized a web application for one of the products
+                      using REACT & proprietary REST APIs.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Contributed to diverse internal software programs made
+                      using C# & .NET framework.
+                    </p>
+                  </div>
+                  <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
+                    Skills: HTML, CSS, JAVASCRIPT, REACT, REST API, SCRUM, .NET
+                  </h2>
+                </div>
+              </div>
+              <Divider
+                orientation="horizontal"
+                className="bg-dbl w-3/4 place-self-center my-10"
+              />
             </div>
           </div>
         </div>
