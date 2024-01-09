@@ -210,6 +210,42 @@ export default function MainPage() {
                   </h2>
                 </div>
               </div>
+              <Divider
+                orientation="horizontal"
+                className="bg-dbl w-3/4 place-self-center my-10"
+              />
+              <div className="flex flex-row h-fit w-full items-center whitespace-normal justify-center">
+                <div className="flex flex-col desc w-1/2 gap-2 text-right">
+                  <h2 className="sec-font text-7xl">GunHead (Video Game)</h2>
+                  <h2 className="text-4xl text-dbl">/October 2022/</h2>
+                  <div className="summary">
+                    <p className="px-2 sec-font text-2xl">
+                      Created 2D side-scrolling platformer using C# in Unity in
+                      48 hours.
+                    </p>
+                    <p className="px-2 sec-font text-2xl">
+                      Led the level design, player mechanics & design.
+                    </p>
+                    <p className="px-2 sec-font text-2xl"></p>
+                    <p className="px-2 sec-font text-2xl">
+                      Submitted to the 2022 Concordia Game Jam.
+                    </p>
+                  </div>
+                  <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
+                    Skills: C#, UNITY
+                  </h2>
+                </div>
+                <div className="image w-1/2 flex my-5 justify-center">
+                  <Image
+                    as={NextImage}
+                    width={650}
+                    height={650}
+                    alt="profile"
+                    src="/img/GunHead.png"
+                    className="z-0 opacity-100 w-full mix-blend-lighten rounded-none object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
           {/* EXPERIENCE */}
