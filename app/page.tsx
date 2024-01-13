@@ -258,7 +258,7 @@ export default function MainPage() {
             </span>
             <span>EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE</span>
             <div className="content h-fit mx-10 text-5xl text-wh flex flex-col my-10">
-              <div className="flex flex-row h-fit mx-36 items-center whitespace-normal">
+              <div className="flex flex-row h-fit w-3/4 place-self-center items-center whitespace-normal">
                 <div className="image w-1/2 flex justify-center my-5">
                   <Image
                     as={NextImage}
