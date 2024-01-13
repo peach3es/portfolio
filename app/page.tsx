@@ -95,7 +95,7 @@ export default function MainPage() {
             </span>
             <span>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</span>
             <div className="content h-fit mx-10 text-5xl text-wh flex flex-col my-10">
-              <div className="flex flex-row h-fit items-center whitespace-normal w-full justify-center">
+              <div className="flex flex-row h-fit items-center whitespace-normal w-3/4 place-self-center">
                 <div className="image w-1/2 flex my-5 justify-center">
                   <Image
                     as={NextImage}
@@ -136,7 +136,7 @@ export default function MainPage() {
                 orientation="horizontal"
                 className="bg-dbl w-3/4 place-self-center my-10"
               />
-              <div className="flex flex-row h-fit w-full items-center whitespace-normal justify-center">
+              <div className="flex flex-row h-fit w-3/4 place-self-center items-center whitespace-normal">
                 <div className="flex flex-col desc w-1/2 gap-2 text-right">
                   <h2 className="sec-font text-7xl">
                     Concordia Game Development Club
@@ -161,11 +161,11 @@ export default function MainPage() {
                     Skills: REACT, REMIX, TAILWIND, TYPESCRIPT
                   </h2>
                 </div>
-                <div className="image w-1/2 flex my-5 justify-center">
+                <div className="image w-1/2 flex my-5 px-16 justify-center">
                   <Image
                     as={NextImage}
-                    width={350}
-                    height={350}
+                    width={300}
+                    height={300}
                     alt="profile"
                     src="/img/cgd.png"
                     className="z-0 opacity-100 w-full mix-blend-lighten rounded-none object-cover"
@@ -176,8 +176,8 @@ export default function MainPage() {
                 orientation="horizontal"
                 className="bg-dbl w-3/4 place-self-center my-10"
               />
-              <div className="flex flex-row h-fit items-center whitespace-normal justify-center">
-                <div className="image w-1/2 flex justify-center my-5">
+              <div className="flex flex-row h-fit items-center whitespace-normal w-3/4 place-self-center">
+                <div className="image w-1/2 flex my-5 justify-center px-16">
                   <Image
                     as={NextImage}
                     width={700}
@@ -214,7 +214,7 @@ export default function MainPage() {
                 orientation="horizontal"
                 className="bg-dbl w-3/4 place-self-center my-10"
               />
-              <div className="flex flex-row h-fit w-full items-center whitespace-normal justify-center">
+              <div className="flex flex-row h-fit w-3/4 place-self-center items-center whitespace-normal">
                 <div className="flex flex-col desc w-1/2 gap-2 text-right">
                   <h2 className="sec-font text-7xl">GunHead (Video Game)</h2>
                   <h2 className="text-4xl text-dbl">/October 2022/</h2>
@@ -242,7 +242,7 @@ export default function MainPage() {
                     height={650}
                     alt="profile"
                     src="/img/GunHead.png"
-                    className="z-0 opacity-100 w-full mix-blend-lighten rounded-none object-cover"
+                    className="z-0 opacity-100 w-full mix-blend-lighten rounded-sm object-cover"
                   />
                 </div>
               </div>
