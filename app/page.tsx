@@ -119,10 +119,11 @@ export default function MainPage() {
                       NextUI library.
                     </p>
                     <p className="px-2 sec-font text-2xl">
-                      Led the development process following SCRUM methodology.
+                      Led the development process following SCRUM methodology &
+                      was the SCRUM master.
                     </p>
                     <p className="px-2 sec-font text-2xl">
-                      Engaged in pair programming to ensure a collaborative and
+                      Engaged in pair programming to ensure a uniform and
                       efficient workflow.
                     </p>
                   </div>
@@ -224,7 +225,7 @@ export default function MainPage() {
                       48 hours.
                     </p>
                     <p className="px-2 sec-font text-2xl">
-                      Led the level design, player mechanics & design.
+                      Led the level design, camera movement & design.
                     </p>
                     <p className="px-2 sec-font text-2xl"></p>
                     <p className="px-2 sec-font text-2xl">
