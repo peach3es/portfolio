@@ -3,10 +3,10 @@ import NextImage from "next/image";
 
 export default function MainPage() {
   return (
-    <main className="flex py-10">
-      <div className="flex flex-col w-full ">
-        <div className="flex flex-col sm:px-20 -mb-56">
-          <div className="sm:w-[770px] sm:place-self-start place-self-center sm:ml-24 aspect-square absolute sm:px-0 px-2">
+    <main className="flex">
+      <div className="flex flex-col w-full">
+        <div className="flex flex-col sm:px-20 sm:h-screen justify-center mt-32 sm:mt-0">
+          <div className="lg:w-[770px] lg:place-self-start lg:ml-24 aspect-square absolute lg:px-0 px-2 ">
             <Image
               as={NextImage}
               width={1500}
@@ -111,8 +111,8 @@ export default function MainPage() {
                   <h2 className="text-4xl text-dbl">/Fall - December 2023/</h2>
                   <div className="summary">
                     <p className="px-2 sec-font text-2xl">
-                      Developed a real estate website clone using React,
-                      Next.js, Cypress, MongoDB & Vercel.
+                      Developed a real estate website clone using Next.js,
+                      Cypress, MongoDB & Vercel.
                     </p>
                     <p className="px-2 sec-font text-2xl">
                       Designed the UI/UX of the website using Tailwind & the
@@ -128,8 +128,7 @@ export default function MainPage() {
                     </p>
                   </div>
                   <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
-                    Skills: REACT, NEXT.JS 13, TAILWIND, MONGODB, CYPRESS,
-                    TYPESCRIPT
+                    Skills: NEXT.JS 13, TAILWIND, MONGODB, CYPRESS, TYPESCRIPT
                   </h2>
                 </div>
               </div>
@@ -145,8 +144,8 @@ export default function MainPage() {
                   <h2 className="text-4xl text-dbl">/Fall 2023 - Ongoing/</h2>
                   <div className="summary">
                     <p className="px-2 sec-font text-2xl">
-                      Re-developed the CGD club&apos;s website using React,
-                      Remix, Tailwind & Vercel individually.
+                      Re-developed the CGD club&apos;s website using Remix,
+                      Tailwind & Vercel.
                     </p>
                     <p className="px-2 sec-font text-2xl">
                       Re-designed the UI/UX of the website using Tailwind whilst
@@ -159,7 +158,7 @@ export default function MainPage() {
                     </p>
                   </div>
                   <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
-                    Skills: REACT, REMIX, TAILWIND, TYPESCRIPT
+                    Skills: REMIX, TAILWIND, TYPESCRIPT
                   </h2>
                 </div>
                 <div className="image w-1/2 flex my-5 px-16 justify-center">
@@ -195,7 +194,7 @@ export default function MainPage() {
                   <div className="summary">
                     <p className="px-2 sec-font text-2xl">
                       Developed a simple application website using HTML, CSS &
-                      Javascript individually.
+                      Javascript.
                     </p>
                     <p className="px-2 sec-font text-2xl">
                       Designed a collection of small tools like a calculator & a
