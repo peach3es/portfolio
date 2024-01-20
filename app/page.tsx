@@ -5,7 +5,7 @@ export default function MainPage() {
   return (
     <main className="flex">
       <div className="flex flex-col w-full">
-        <div className="flex flex-col sm:px-20 sm:h-screen justify-center mt-32 sm:mt-0">
+        <div className="flex flex-col lg:px-20 md:pl-10 sm:h-screen justify-center mt-52 sm:mt-0">
           <div className="lg:w-[770px] lg:place-self-start lg:ml-24 aspect-square absolute lg:px-0 px-2 ">
             <Image
               as={NextImage}
@@ -16,11 +16,11 @@ export default function MainPage() {
               className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
             />
           </div>
-          <p className="main-font text-bla text-left 2xl:ml-32 lg:ml-20 ml-0 h-1/3 flex items-center mt-20 text-[100px] sm:text-[150px] lg:text-[250px] 2xl:text-[400px] sm:px-0 pl-4">
+          <p className="main-font text-bla text-left 2xl:ml-32 lg:ml-20 ml-0 h-1/3 flex items-center  text-[100px] sm:text-[150px] lg:text-[250px] 2xl:text-[400px] sm:px-0 pl-4 sm:mt-0">
             PEIZHE
           </p>
           <div className="flex lg:flex-row flex-col-reverse">
-            <div className="2xl:text-4xl lg:text-2xl text-xl text-wh 2xl:ml-24 lg:ml-20 2xl:p-10 p-8 lg:mt-8 h-fit z-0 sm:text-start text-center">
+            <div className="2xl:text-4xl lg:text-2xl text-xl text-wh 2xl:ml-24 lg:ml-20 2xl:p-10 p-12 lg:mt-8 h-fit z-0 sm:text-start text-center  ">
               Computer Engineer Student @ Concordia University
               <div className="flex flex-row gap-20 mt-5 w-full justify-center">
                 <Button
@@ -39,7 +39,7 @@ export default function MainPage() {
                 </Button>
               </div>
             </div>
-            <p className="main-font text-bla text-right 2xl:mr-32 lg:mr-20 mr-0 ml-auto 2xl:-mt-48 lg:-mt-32 sm:-mt-24 -mt-16 flex items-center text-[100px] sm:text-[150px] lg:text-[250px] 2xl:text-[400px] h-fit sm:px-0 pr-4">
+            <p className="main-font text-bla text-right 2xl:mr-32 lg:mr-20 mr-0 ml-auto 2xl:-mt-48 lg:-mt-32 sm:-mt-24 -mt-16 flex items-center text-[100px] sm:text-[150px] lg:text-[250px] 2xl:text-[400px] h-fit lg:px-0 pr-4">
               TIAN
             </p>
           </div>
@@ -130,6 +130,29 @@ export default function MainPage() {
                   <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
                     Skills: NEXT.JS 13, TAILWIND, MONGODB, CYPRESS, TYPESCRIPT
                   </h2>
+                  <div className="flex gap-10 justify-center my-4">
+                    <Button
+                      disableRipple
+                      className="button w-fit text-2xl main-font font-extrabold bg-transparent text-wh transition ease-in-out duration-300 border-b-1"
+                      radius="none"
+                    >
+                      <a
+                        href="https://github.com/peach3es/5FtApart"
+                        target="_blank"
+                      >
+                        GitHub
+                      </a>
+                    </Button>
+                    <Button
+                      disableRipple
+                      className="button w-fit text-2xl main-font font-extrabold bg-transparent text-wh transition ease-in-out duration-300 border-b-1"
+                      radius="none"
+                    >
+                      <a href="https://5ftapart.vercel.app" target="_blank">
+                        Website
+                      </a>
+                    </Button>
+                  </div>
                 </div>
               </div>
               <Divider
@@ -160,6 +183,32 @@ export default function MainPage() {
                   <h2 className="px-2 mt-2 text-3xl text-dbl font-bold">
                     Skills: REMIX, TAILWIND, TYPESCRIPT
                   </h2>
+                  <div className="flex gap-10 justify-center my-4">
+                    <Button
+                      disableRipple
+                      className="button w-fit text-2xl main-font font-extrabold bg-transparent text-wh transition ease-in-out duration-300 border-b-1"
+                      radius="none"
+                    >
+                      <a
+                        href="https://github.com/peach3es/CGDWebsite"
+                        target="_blank"
+                      >
+                        GitHub
+                      </a>
+                    </Button>
+                    <Button
+                      disableRipple
+                      className="button w-fit text-2xl main-font font-extrabold bg-transparent text-wh transition ease-in-out duration-300 border-b-1"
+                      radius="none"
+                    >
+                      <a
+                        href="https://concordiagamedev.vercel.app/sponsor"
+                        target="_blank"
+                      >
+                        Website
+                      </a>
+                    </Button>
+                  </div>
                 </div>
                 <div className="image w-1/2 flex my-5 px-16 justify-center">
                   <Image
