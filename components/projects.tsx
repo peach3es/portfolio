@@ -9,17 +9,7 @@ const Projects: React.FC = () => {
       <span>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</span>
       <div className="content h-fit mx-10 text-5xl text-wh flex flex-col my-10">
         <div className="flex flex-row h-fit items-center whitespace-normal w-3/4 place-self-center">
-          <div className="image w-1/2 flex my-5 justify-center">
-            <Image
-              as={NextImage}
-              width={770}
-              height={770}
-              alt="profile"
-              src="/img/5ftapart.png"
-              className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
-            />
-          </div>
-          <div className="flex flex-col desc w-1/2 gap-2 text-left">
+          <div className="flex flex-col desc w-1/2 gap-2 text-right">
             <h2 className="sec-font text-7xl">5FtApart</h2>
             <h2 className="text-4xl text-dbl">/Fall - December 2023/</h2>
             <div className="summary">
@@ -64,6 +54,16 @@ const Projects: React.FC = () => {
               </Button>
             </div>
           </div>
+          <div className="image w-1/2 flex my-5 justify-center">
+            <Image
+              as={NextImage}
+              width={770}
+              height={770}
+              alt="profile"
+              src="/img/5ftapart.png"
+              className="z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover"
+            />
+          </div>
         </div>
 
         <Divider
@@ -71,7 +71,17 @@ const Projects: React.FC = () => {
           className="bg-dbl w-3/4 place-self-center my-10"
         />
         <div className="flex flex-row h-fit w-3/4 place-self-center items-center whitespace-normal">
-          <div className="flex flex-col desc w-1/2 gap-2 text-right">
+          <div className="image w-1/2 flex my-5 px-16 justify-center">
+            <Image
+              as={NextImage}
+              width={300}
+              height={300}
+              alt="profile"
+              src="/img/cgd.png"
+              className="z-0 opacity-100 w-full mix-blend-lighten rounded-none object-cover"
+            />
+          </div>
+          <div className="flex flex-col desc w-1/2 gap-2 text-left">
             <h2 className="sec-font text-7xl">
               Concordia Game Development Club
             </h2>
@@ -121,22 +131,12 @@ const Projects: React.FC = () => {
               </Button>
             </div>
           </div>
-          <div className="image w-1/2 flex my-5 px-16 justify-center">
-            <Image
-              as={NextImage}
-              width={300}
-              height={300}
-              alt="profile"
-              src="/img/cgd.png"
-              className="z-0 opacity-100 w-full mix-blend-lighten rounded-none object-cover"
-            />
-          </div>
         </div>
         <Divider
           orientation="horizontal"
           className="bg-dbl w-3/4 place-self-center my-10"
         />
-        <div className="flex flex-row h-fit items-center whitespace-normal w-3/4 place-self-center">
+        {/* <div className="flex flex-row h-fit items-center whitespace-normal w-3/4 place-self-center">
           <div className="image w-1/2 flex my-5 justify-center px-16">
             <Image
               as={NextImage}
@@ -168,11 +168,11 @@ const Projects: React.FC = () => {
               Skills: HTML, CSS, JAVASCRIPT
             </h2>
           </div>
-        </div>
+        </div> 
         <Divider
           orientation="horizontal"
           className="bg-dbl w-3/4 place-self-center my-10"
-        />
+        />*/}
         <div className="flex flex-row h-fit w-3/4 place-self-center items-center whitespace-normal">
           <div className="flex flex-col desc w-1/2 gap-2 text-right">
             <h2 className="sec-font text-7xl">GunHead (Video Game)</h2>
