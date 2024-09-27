@@ -12,7 +12,7 @@ const Landing: React.FC = () => {
         height={770}
         alt="iridescence"
         src="/img/iridescent.jpg"
-        className="absolute top-20 left-20 z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover lg:px-0 px-4 aspect-square"
+        className="absolute lg:top-20 lg:left-20 z-0 opacity-100 w-full mix-blend-difference rounded-none object-cover lg:px-0 px-4 aspect-square"
       />
       <div className="w-screen">
         <p className="main-font text-bla text-left px-6 2xl:ml-32 lg:ml-20 h-fit flex items-center text-[85px] sm:text-[150px] lg:text-[250px] 2xl:text-[400px] sm:px-0">
